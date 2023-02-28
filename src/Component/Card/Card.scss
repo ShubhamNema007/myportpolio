@@ -1,0 +1,18 @@
+@import '../../Scss/Variable.scss';
+
+.card-main {
+    border: 1px solid $red-color;
+    padding: 10px;
+    max-width: 525px;
+    border-radius: 5px;
+
+    .card-head {
+        color: $blue-color;
+        font-size: 25px;
+    }
+    .card-content{
+        color: $red-color;
+        font-size: 15px;
+    }
+    
+}

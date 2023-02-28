@@ -1,0 +1,27 @@
+@import "../../Scss/Variable.scss";
+@import"../../Scss/Mixins.scss";
+
+.header-main {
+    padding: 15px;
+    border-bottom: 1px solid $red-color;
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lenovo-img{
+        max-width: 100px;
+    }
+    .list-items-main {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+        font-size: 20px;
+        li a{
+            color: $red-color;
+            text-decoration: none;
+        }
+    }
+    
+}

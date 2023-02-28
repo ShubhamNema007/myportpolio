@@ -1,0 +1,43 @@
+@import '../../Scss/Variable.scss';
+.main-btn {
+  color: $white-color;
+  padding: 12px 15px;
+  background: darkgray;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transform: translate(0%, 0%);
+  overflow: hidden;
+  text-transform: uppercase;
+  transition: all 0.35s;
+
+}
+.main-btn:before,
+.main-btn:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  background: $red-color;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.main-btn:before {
+  opacity: 0.5;
+}
+
+.main-btn:after {
+  transition-delay: 0.2s;
+}
+
+.main-btn:hover {
+  color: $white-color;
+}
+
+.main-btn:hover:before,
+.main-btn:hover:after {
+  top: 0;
+}

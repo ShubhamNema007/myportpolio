@@ -1,0 +1,25 @@
+@import'../../Scss/Variable.scss';
+@import'../../Scss/Mixins.scss';
+.about {
+    padding: 15px;
+    border-bottom: 1px solid $red-color;
+  
+    .about-title {
+      text-align: center;
+      font-size: 42px;
+      color: $red-color;
+      text-transform: uppercase;
+    }
+  
+    .about-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $red-color;
+    }
+    .cards{
+      display: flex;
+      gap: 15px;
+      padding: 20px 0;
+    }
+  }

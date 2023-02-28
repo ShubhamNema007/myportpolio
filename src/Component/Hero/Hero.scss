@@ -1,0 +1,27 @@
+@import '../../Scss/Variable.scss';
+
+.hero {
+    border-bottom: 1px solid $red-color;
+
+    .hero-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero-main-description {
+            padding: 0 10px;
+        }
+        .hero-head {
+            font-size: 45px;
+            color: $red-color;
+        }
+    
+        .hero-para {
+            font-size: 20px;
+            color: $red-color;
+        }
+    }
+    .hero-img {
+        max-width: 100%;
+    }
+}
